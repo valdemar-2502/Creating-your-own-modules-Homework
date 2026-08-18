@@ -162,9 +162,19 @@ if __name__ == '__main__':
 
 **Шаг 4.** Проверьте module на исполняемость локально.
 
+---
+![ansible](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/blob/main/screeshots/01.png)
+
+---
+
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
 **Шаг 6.** Проверьте через playbook на идемпотентность.
+
+---
+![ansible](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/blob/main/screeshots/02.png)
+
+---
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
@@ -184,9 +194,29 @@ if __name__ == '__main__':
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
 
+---
+![ansible](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/blob/main/screeshots/03.png)
+
+---
+
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
 
+---
+![ansible](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/blob/main/screeshots/04.png)
+![ansible](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/blob/main/screeshots/05.png)
+
+---
+
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
+
+---
+## Ссылка на с tar.gz архивом
+
+[my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/releases/tag/1.0.0)
+
+## Прямая ссылка на скачивание архива
+
+[my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz](https://github.com/valdemar-2502/Creating-your-own-modules-Homework/releases/download/1.0.0/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
 
 ## Необязательная часть
 
