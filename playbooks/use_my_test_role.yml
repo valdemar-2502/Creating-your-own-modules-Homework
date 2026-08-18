@@ -1,0 +1,10 @@
+---
+- name: Use my_test_role from my_own_namespace.yandex_cloud_elk collection
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - role: my_own_namespace.yandex_cloud_elk.my_test_role
+      my_test_path: /tmp/my_test_file.txt
+      my_test_content: "hello from the role-based playbook"

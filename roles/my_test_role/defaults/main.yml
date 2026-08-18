@@ -1,0 +1,3 @@
+---
+my_test_path: /tmp/my_test_file.txt
+my_test_content: "hello from my_own_namespace.yandex_cloud_elk"
